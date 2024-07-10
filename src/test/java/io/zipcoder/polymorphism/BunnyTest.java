@@ -15,7 +15,7 @@ public class BunnyTest {
 
     @Test
     public void bunnySpeak(){
-        String s = "meep";
+        String s = "whats up doc";
         Pet bunny = new Bunny();
         Assert.assertEquals(s, bunny.speak());
     }
@@ -23,16 +23,16 @@ public class BunnyTest {
     @Test
     public void getSpeak() {
         Bunny bunny = new Bunny();
-        bunny.setSpeak("meep");
-        String expected = "meep";
+        bunny.setSpeak("whats up doc");
+        String expected = "whats up doc";
         Assert.assertEquals(expected, bunny.getSpeak());
     }
 
     @Test
     public void setSpeak() {
         Bunny bunny = new Bunny();
-        bunny.setSpeak("meep");
-        String expected = "meep";
+        bunny.setSpeak("whats up doc");
+        String expected = "whats up doc";
         Assert.assertEquals(expected, bunny.getSpeak());
     }
 
