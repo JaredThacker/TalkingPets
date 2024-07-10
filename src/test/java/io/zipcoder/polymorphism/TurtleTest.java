@@ -16,7 +16,7 @@ public class TurtleTest {
     @Test
     public void turtleSpeak(){
         Pet turtle = new Turtle();
-        String s = "turtle";
+        String s = "slow n steady wins the race";
         Assert.assertEquals(s, turtle.speak());
     }
 
