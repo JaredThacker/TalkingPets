@@ -14,7 +14,7 @@ public class MainApplication {
         boolean isTrue = true;
 
         while (isTrue) {
-            System.out.println("What kind of pet do u have? (turtle, cat, dog, or bunny)");
+            System.out.println("What kind of pet do u have? (cat, dog, turtle, or bunny)");
             Scanner scanner = new Scanner(System.in);
             String userInput = scanner.nextLine().toLowerCase();
 
@@ -43,7 +43,7 @@ public class MainApplication {
                     pets.add(turtle);
                     break;
                 default:
-                    System.out.println("pet not recognized; try again");
+                    System.out.println("pet type not recognized; try again with provided types");
                     break;
             }
             System.out.println("Do you have any other pets? y/n");
